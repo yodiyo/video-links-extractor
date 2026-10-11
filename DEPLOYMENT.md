@@ -286,10 +286,11 @@ docker-compose logs -f
 
 The app can download actual video files two ways:
 
-1. **Single downloads** — from the homepage ("Download a video from any site") and
-   from the playlist results list.
-2. **Bulk downloads** — on the `/bulk` page: upload an Excel file of video links
-   and receive a ZIP of the downloaded videos plus a `download_report.txt`.
+1. **Single and batch downloads** — from the homepage ("Download videos from any
+   site"): paste up to 30 links, check them together, and download a ZIP containing
+   the videos and a `download_report.txt`.
+2. **Excel bulk downloads** — on the `/bulk` page: upload an Excel file of video
+   links and receive a ZIP of the downloaded videos plus a `download_report.txt`.
 
 Both run through **yt-dlp**, the same tool the original Python script used, so
 they support **YouTube, Instagram, TikTok, Facebook, Twitter/X, Vimeo and
